@@ -347,6 +347,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &642241183 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 628807993e5d9f546909086a6ce8716a, type: 3}
+  m_PrefabInstance: {fileID: 1088541283}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &711197697
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,7 +862,7 @@ GameObject:
   - component: {fileID: 907367456}
   - component: {fileID: 907367458}
   - component: {fileID: 907367457}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LongGrass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1218,6 +1223,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 628807993e5d9f546909086a6ce8716a, type: 3}
+      propertyPath: m_TagString
+      value: Bush
+      objectReference: {fileID: 0}
     - target: {fileID: 4865064391339405807, guid: 628807993e5d9f546909086a6ce8716a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.1305683
@@ -1248,7 +1257,10 @@ PrefabInstance:
     - {fileID: 8416272007918961125, guid: 628807993e5d9f546909086a6ce8716a, type: 3}
     - {fileID: -208595431880416365, guid: 628807993e5d9f546909086a6ce8716a, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 628807993e5d9f546909086a6ce8716a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1713955308}
   m_SourcePrefab: {fileID: 100100000, guid: 628807993e5d9f546909086a6ce8716a, type: 3}
 --- !u!1 &1251161261
 GameObject:
@@ -1669,6 +1681,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 628807993e5d9f546909086a6ce8716a, type: 3}
   m_PrefabInstance: {fileID: 1088541283}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1713955308
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642241183}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.0962615, y: 22.819946, z: 9.801231}
+  m_Center: {x: -2.0481317, y: 10.909967, z: 4.400615}
 --- !u!1 &2078154584
 GameObject:
   m_ObjectHideFlags: 0
@@ -1903,7 +1936,11 @@ MonoBehaviour:
   speed: 5
   solidObjectsLayer:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 1536
+  TallGrassLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  isCooldown: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

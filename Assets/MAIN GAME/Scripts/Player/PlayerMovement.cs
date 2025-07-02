@@ -1,11 +1,15 @@
 using System.Collections;
+using System.Security.Cryptography;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.Animations;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f;
     public LayerMask solidObjectsLayer;
+    public LayerMask TallGrassLayer;
 
     Rigidbody rb;
     private bool isMoving;
@@ -14,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
 
     private Vector3 _targetPos;
+
+    public bool isCooldown;
 
     private void Awake()
     {
@@ -41,6 +47,8 @@ public class PlayerMovement : MonoBehaviour
                 targetPos.z += input.z;
 
                 if (IsWalkable(targetPos)) StartCoroutine(Move(targetPos));
+
+
             }
             animator.SetBool("isMoving", isMoving);
         }
@@ -63,8 +71,18 @@ public class PlayerMovement : MonoBehaviour
     private bool IsWalkable(Vector3 targetPos)
     {
         _targetPos = targetPos;
-        if (Physics.OverlapSphere(targetPos, 0.3f, solidObjectsLayer).Length > 0)
+
+        Collider[] thingsWeHaveHit = Physics.OverlapSphere(targetPos, 0.3f, solidObjectsLayer);
+
+        if (thingsWeHaveHit.Length > 0)
         {
+            foreach (Collider collider in thingsWeHaveHit)
+            {
+                if (collider.tag == "Bush")
+                {
+                    BushLogic(targetPos);
+                }
+            }
             return false;
         }
 
@@ -74,5 +92,27 @@ public class PlayerMovement : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(_targetPos, 0.3f);
+    }
+
+    private void BushLogic(Vector3 targetPos)
+    {
+        if (isCooldown == false)
+        {
+            int randomnumber = Random.Range(1, 11);
+            Debug.Log("Random Integer: " + randomnumber);
+            if (randomnumber == 10)
+            {
+                SceneManager.LoadScene(7);
+            }
+            StartCoroutine(CooldownForBush());
+
+        }
+    }
+
+    IEnumerator CooldownForBush()
+    {
+        isCooldown = true;
+        yield return new WaitForSeconds(3);
+        isCooldown = false;
     }
 }
