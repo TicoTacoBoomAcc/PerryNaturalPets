@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3d3257514a791a248a080f7ed34d8843
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226825
+  packageName: XSGridEditor
+  packageVersion: 1.0
+  assetPath: Assets/XSGridEditor/Scripts/game/component/XSGridShowRegionCpt.cs
+  uploadId: 527943

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a0255c19245bc3d439b6cdcc91cdf15b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226825
+  packageName: XSGridEditor
+  packageVersion: 1.0
+  assetPath: Assets/XSGridEditor/Scripts/GridEditor/XSMain.cs
+  uploadId: 527943

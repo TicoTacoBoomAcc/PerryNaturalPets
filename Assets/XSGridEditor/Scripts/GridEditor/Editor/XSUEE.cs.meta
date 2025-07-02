@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d52c5342c88c39641bf2fd55850898a0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226825
+  packageName: XSGridEditor
+  packageVersion: 1.0
+  assetPath: Assets/XSGridEditor/Scripts/GridEditor/Editor/XSUEE.cs
+  uploadId: 527943

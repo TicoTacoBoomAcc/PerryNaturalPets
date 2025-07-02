@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 08f2937cece58e9499902c84683133c9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226825
+  packageName: XSGridEditor
+  packageVersion: 1.0
+  assetPath: Assets/XSGridEditor/Scripts/game/utils/XSUG.cs
+  uploadId: 527943

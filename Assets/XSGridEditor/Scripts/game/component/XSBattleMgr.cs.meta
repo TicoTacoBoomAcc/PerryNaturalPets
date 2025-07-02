@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4fb7549318c63564ab8c2d0afc1af5d5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226825
+  packageName: XSGridEditor
+  packageVersion: 1.0
+  assetPath: Assets/XSGridEditor/Scripts/game/component/XSBattleMgr.cs
+  uploadId: 527943

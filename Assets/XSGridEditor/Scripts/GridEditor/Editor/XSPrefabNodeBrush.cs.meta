@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b5fedb78fe2572741b814f35dd38431d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226825
+  packageName: XSGridEditor
+  packageVersion: 1.0
+  assetPath: Assets/XSGridEditor/Scripts/GridEditor/Editor/XSPrefabNodeBrush.cs
+  uploadId: 527943

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e1a38ec805e00cc4da72fbd41f5c7411
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226825
+  packageName: XSGridEditor
+  packageVersion: 1.0
+  assetPath: Assets/XSGridEditor/Scripts/GridEditor/Editor/XSBrushBase.cs
+  uploadId: 527943

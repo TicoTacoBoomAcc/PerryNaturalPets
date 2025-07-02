@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0c9f81f502279cb4fb569e37c06d00c7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226825
+  packageName: XSGridEditor
+  packageVersion: 1.0
+  assetPath: Assets/XSGridEditor/Scripts/game/controller/PathFinding/XSPathFinder.cs
+  uploadId: 527943

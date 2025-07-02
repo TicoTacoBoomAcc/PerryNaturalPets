@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c7831488a122d9a4c9a794e7d92ce9c6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226825
+  packageName: XSGridEditor
+  packageVersion: 1.0
+  assetPath: Assets/XSGridEditor/Scripts/base/component/XSTileRootCpt.cs
+  uploadId: 527943

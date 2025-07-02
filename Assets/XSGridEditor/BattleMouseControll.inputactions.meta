@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 05437be80adbdcf439324ac0f299a8b4
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226825
+  packageName: XSGridEditor
+  packageVersion: 1.0
+  assetPath: Assets/XSGridEditor/BattleMouseControll.inputactions
+  uploadId: 527943
