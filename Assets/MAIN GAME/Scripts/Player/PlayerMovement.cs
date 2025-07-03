@@ -81,6 +81,8 @@ public class PlayerMovement : MonoBehaviour
                 if (collider.tag == "Bush")
                 {
                     BushLogic(targetPos);
+
+                    return true;
                 }
             }
             return false;
@@ -98,9 +100,9 @@ public class PlayerMovement : MonoBehaviour
     {
         if (isCooldown == false)
         {
-            int randomnumber = Random.Range(1, 11);
+            int randomnumber = Random.Range(1, 4);
             Debug.Log("Random Integer: " + randomnumber);
-            if (randomnumber == 10)
+            if (randomnumber == 3)
             {
                 SceneManager.LoadScene(7);
             }
