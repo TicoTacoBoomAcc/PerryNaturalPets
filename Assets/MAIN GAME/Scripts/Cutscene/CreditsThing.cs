@@ -5,6 +5,8 @@ using UnityEngine;
 public class CreditsThing : MonoBehaviour
 {
     public GameObject VengeAnim;
+    public GameObject VengeAnim2;
+    public GameObject VengeAnim3;
     public GameObject EthanAnim;
     public GameObject EvieAnim;
     public GameObject HarrisonAnim;
@@ -14,6 +16,16 @@ public class CreditsThing : MonoBehaviour
     void Start()
     {
         VengeAnim.SetActive(false);
+        {
+            StartCoroutine(ActivateAfterSeconds(10f));
+        }
+
+        VengeAnim2.SetActive(false);
+        {
+            StartCoroutine(ActivateAfterSeconds(10f));
+        }
+
+        VengeAnim3.SetActive(false);
         {
             StartCoroutine(ActivateAfterSeconds(10f));
         }
@@ -44,6 +56,12 @@ public class CreditsThing : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         VengeAnim.SetActive(true);
+
+        yield return new WaitForSeconds(delay);
+        VengeAnim2.SetActive(true);
+
+        yield return new WaitForSeconds(delay);
+        VengeAnim3.SetActive(true);
 
         yield return new WaitForSeconds(delay);
         EthanAnim.SetActive(true);
