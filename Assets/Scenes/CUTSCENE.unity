@@ -5466,10 +5466,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -5552,11 +5552,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!4 &933557867 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 016b68ade10f48d4291c3ecab0feeb59, type: 3}
-  m_PrefabInstance: {fileID: 1627663719}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &939370203
 GameObject:
   m_ObjectHideFlags: 0
@@ -5851,8 +5846,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1401432467}
-  - {fileID: 2120341067}
-  - {fileID: 933557867}
   m_Father: {fileID: 919068888}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1048518479
@@ -6540,7 +6533,7 @@ RectTransform:
   m_GameObject: {fileID: 1401432466}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -2.4436722}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.6604, y: 3.6604, z: 3.6604}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 156400192}
@@ -6551,7 +6544,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 244.62587, y: 138.6311}
+  m_AnchoredPosition: {x: 244.62587, y: 105.38}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1420767353
@@ -6738,31 +6731,31 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1017264680}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 016b68ade10f48d4291c3ecab0feeb59, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3365834
+      value: 0.28448328
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 016b68ade10f48d4291c3ecab0feeb59, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.33658338
+      value: 0.2844832
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 016b68ade10f48d4291c3ecab0feeb59, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.3365834
+      value: 0.28448328
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 016b68ade10f48d4291c3ecab0feeb59, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.4258575
+      value: -0.07000017
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 016b68ade10f48d4291c3ecab0feeb59, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.901108
+      value: 12.379999
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 016b68ade10f48d4291c3ecab0feeb59, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.4436722
+      value: -0.35
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 016b68ade10f48d4291c3ecab0feeb59, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6857,6 +6850,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   VengeAnim: {fileID: 1017264679}
+  VengeAnim2: {fileID: 933557865}
+  VengeAnim3: {fileID: 2120341065}
   EthanAnim: {fileID: 1390536739}
   EvieAnim: {fileID: 1560827038}
   HarrisonAnim: {fileID: 821447925}
@@ -6952,31 +6947,31 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1017264680}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a08cf0422d0878444a7436fe6bfa9fc5, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.38128
+      value: 0.41760293
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a08cf0422d0878444a7436fe6bfa9fc5, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.38128
+      value: 0.4176029
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a08cf0422d0878444a7436fe6bfa9fc5, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.38128
+      value: 0.41760293
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a08cf0422d0878444a7436fe6bfa9fc5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.7141266
+      value: -5.23
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a08cf0422d0878444a7436fe6bfa9fc5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16889954
+      value: -2.27
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a08cf0422d0878444a7436fe6bfa9fc5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.523672
+      value: -0.35
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a08cf0422d0878444a7436fe6bfa9fc5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7113,11 +7108,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!4 &2120341067 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a08cf0422d0878444a7436fe6bfa9fc5, type: 3}
-  m_PrefabInstance: {fileID: 2120341064}
-  m_PrefabAsset: {fileID: 0}
 --- !u!320 &2120341068
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -7150,3 +7140,5 @@ SceneRoots:
   - {fileID: 919068888}
   - {fileID: 120041190}
   - {fileID: 1755888556}
+  - {fileID: 1627663719}
+  - {fileID: 2120341064}
