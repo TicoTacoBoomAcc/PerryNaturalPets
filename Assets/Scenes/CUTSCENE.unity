@@ -5147,6 +5147,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 378201263}
+  - component: {fileID: 378201264}
   m_Layer: 5
   m_Name: TITLECARD
   m_TagString: Untagged
@@ -5163,16 +5164,24 @@ RectTransform:
   m_GameObject: {fileID: 378201262}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 919068888}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 600, y: -175}
+  m_SizeDelta: {x: 400, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &378201264
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378201262}
+  m_CullTransparentMesh: 1
 --- !u!1 &458486014
 GameObject:
   m_ObjectHideFlags: 0
@@ -5831,7 +5840,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1017264680
 Transform:
   m_ObjectHideFlags: 0
@@ -6791,7 +6800,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 016b68ade10f48d4291c3ecab0feeb59, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -6813,6 +6822,8 @@ GameObject:
   - component: {fileID: 1755888556}
   - component: {fileID: 1755888555}
   - component: {fileID: 1755888554}
+  - component: {fileID: 1755888557}
+  - component: {fileID: 1755888558}
   m_Layer: 0
   m_Name: CreditHolder
   m_TagString: Untagged
@@ -6850,8 +6861,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   VengeAnim: {fileID: 1017264679}
-  VengeAnim2: {fileID: 933557865}
-  VengeAnim3: {fileID: 2120341065}
   EthanAnim: {fileID: 1390536739}
   EvieAnim: {fileID: 1560827038}
   HarrisonAnim: {fileID: 821447925}
@@ -6871,6 +6880,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1755888557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755888553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37c9566079bc8fb49bda978b0b87e7c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VengeAnim2: {fileID: 2120341065}
+--- !u!114 &1755888558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755888553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b892121d7817a5449a37f35470a627c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VengeAnim3: {fileID: 933557865}
 --- !u!1 &1906821755
 GameObject:
   m_ObjectHideFlags: 0
@@ -6967,11 +7002,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a08cf0422d0878444a7436fe6bfa9fc5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.27
+      value: -2.94
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a08cf0422d0878444a7436fe6bfa9fc5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.35
+      value: -5.17
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a08cf0422d0878444a7436fe6bfa9fc5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7023,7 +7058,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a08cf0422d0878444a7436fe6bfa9fc5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4083501151425157549, guid: a08cf0422d0878444a7436fe6bfa9fc5, type: 3}
       propertyPath: m_LocalScale.x
