@@ -100,9 +100,9 @@ public class PlayerMovement : MonoBehaviour
     {
         if (isCooldown == false)
         {
-            int randomnumber = Random.Range(1, 4);
+            int randomnumber = Random.Range(1, 6);
             Debug.Log("Random Integer: " + randomnumber);
-            if (randomnumber == 3)
+            if (randomnumber == 5)
             {
                 SceneManager.LoadScene(7);
             }
